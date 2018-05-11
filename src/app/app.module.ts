@@ -21,8 +21,7 @@ import { CategoriaService } from '../services/domain/categoria.service';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    
+    MyApp,    
   ],
   providers: [
     StatusBar,

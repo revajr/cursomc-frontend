@@ -32,8 +32,8 @@ export class CategoriasPage {
     // subscribe eh a funcao callback
   }
 
-  showProdutos(){
-    this.navCtrl.push('ProdutosPage');
+  showProdutos(categoria_id: string){
+    this.navCtrl.push('ProdutosPage', {categoria_id: categoria_id});
   }
 
 }
